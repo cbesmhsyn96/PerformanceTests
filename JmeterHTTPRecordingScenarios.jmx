@@ -810,7 +810,7 @@
         </elementProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Open login page">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Open Login page">
           <stringProp name="HTTPSampler.domain">opensource-demo.orangehrmlive.com</stringProp>
           <stringProp name="HTTPSampler.path">/web/index.php/auth/login</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
