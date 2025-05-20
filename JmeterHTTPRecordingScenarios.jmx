@@ -4409,6 +4409,18 @@ bï¿½ï¿½Tï¿½ï¿½ï¿½a6\ØŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½&#xf;oï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Oï¿½~ï¿½ï
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Getting Test datas with CSV Data Set Config">
+          <stringProp name="delimiter">,</stringProp>
+          <stringProp name="fileEncoding">UTF-8</stringProp>
+          <stringProp name="filename">/Users/huseyinakcan/Desktop/Test Datas.csv</stringProp>
+          <boolProp name="ignoreFirstLine">true</boolProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">true</boolProp>
+          <stringProp name="shareMode">shareMode.group</stringProp>
+          <boolProp name="stopThread">false</boolProp>
+          <stringProp name="variableNames"></stringProp>
+        </CSVDataSet>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Payment page request ">
           <stringProp name="HTTPSampler.domain">blazedemo.com</stringProp>
           <stringProp name="HTTPSampler.path">/confirmation.php</stringProp>
@@ -4428,70 +4440,70 @@ bï¿½ï¿½Tï¿½ï¿½ï¿½a6\ØŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½&#xf;oï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Oï¿½~ï¿½ï
               <elementProp name="inputName" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.name">inputName</stringProp>
-                <stringProp name="Argument.value">d</stringProp>
+                <stringProp name="Argument.value">${inputName}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
               <elementProp name="address" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.name">address</stringProp>
-                <stringProp name="Argument.value">f</stringProp>
+                <stringProp name="Argument.value">${address}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
               <elementProp name="city" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.name">city</stringProp>
-                <stringProp name="Argument.value">s</stringProp>
+                <stringProp name="Argument.value">${city}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
               <elementProp name="state" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.name">state</stringProp>
-                <stringProp name="Argument.value">f</stringProp>
+                <stringProp name="Argument.value">${state}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
               <elementProp name="zipCode" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.name">zipCode</stringProp>
-                <stringProp name="Argument.value">3</stringProp>
+                <stringProp name="Argument.value">${zipCode}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
               <elementProp name="cardType" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.name">cardType</stringProp>
-                <stringProp name="Argument.value">amex</stringProp>
+                <stringProp name="Argument.value">${cardType}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
               <elementProp name="creditCardNumber" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.name">creditCardNumber</stringProp>
-                <stringProp name="Argument.value">2</stringProp>
+                <stringProp name="Argument.value">${creditCardNumber}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
               <elementProp name="creditCardMonth" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.name">creditCardMonth</stringProp>
-                <stringProp name="Argument.value">11</stringProp>
+                <stringProp name="Argument.value">${creditCardMonth}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
               <elementProp name="creditCardYear" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.name">creditCardYear</stringProp>
-                <stringProp name="Argument.value">2017</stringProp>
+                <stringProp name="Argument.value">${creditCardYear}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
               <elementProp name="nameOnCard" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.name">nameOnCard</stringProp>
-                <stringProp name="Argument.value">d</stringProp>
+                <stringProp name="Argument.value">${nameOnCard}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
