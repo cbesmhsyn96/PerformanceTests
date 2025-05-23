@@ -2186,6 +2186,12 @@
             <stringProp name="XPath.namespaces"></stringProp>
           </XPath2Assertion>
           <hashTree/>
+          <CompareAssertion guiclass="TestBeanGUI" testclass="CompareAssertion" testname="Compare Assertion">
+            <boolProp name="compareContent">true</boolProp>
+            <longProp name="compareTime">-1</longProp>
+            <collectionProp name="stringsToSkip"/>
+          </CompareAssertion>
+          <hashTree/>
         </hashTree>
       </hashTree>
     </hashTree>

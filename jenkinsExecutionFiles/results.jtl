@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1748008981719,451,HTTP Request,200,OK,First test 1-1,text,true,,2293,154,1,1,https://reqres.in/api/users?page=2,443,0,197
+1748010219531,229,HTTP Request,200,OK,First test 1-1,text,true,,2301,154,1,1,https://reqres.in/api/users?page=2,226,0,194
+1748029787129,474,HTTP Request,200,OK,First test 1-1,text,true,,2292,154,1,1,https://reqres.in/api/users?page=2,465,0,199
+1748030676561,224,HTTP Request,200,OK,First test 1-1,text,true,,2300,154,1,1,https://reqres.in/api/users?page=2,221,0,196
